@@ -83,7 +83,6 @@ TEMPLATE_WIZARD = r'''
 <head>
     <meta charset="UTF-8">
     <!-- IMPORTANTE! viewport responsivo para celular -->
-                box-shadow: 0 8px 20px rgba(14, 119, 82, 0.14);
     <title>FGM</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/assistant.css">
