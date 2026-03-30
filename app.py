@@ -177,7 +177,6 @@ TEMPLATE_WIZARD = r'''
             border-color: var(--cor-principal);
             background: var(--cor-clara);
             color: var(--cor-principal);
-            box-shadow: 0 8px 20px rgba(14, 119, 82, 0.14);
         }
 
         .wizard-shell {
@@ -1781,7 +1780,6 @@ TEMPLATE_CONFIRMACAO = r'''
             border-color: var(--cor-principal);
             background: var(--cor-clara);
             color: var(--cor-principal);
-            box-shadow: 0 8px 20px rgba(14, 119, 82, 0.14);
         }
 
         .confirm-shell {
