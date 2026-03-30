@@ -2282,7 +2282,7 @@ def confirmacao():
     if not protocolo:
         return redirect(url_for("home"))
 
-    home_url = "https://dancando-na-praca-horfeuvaleiro.onrender.com"
+    home_url = "https://educatech-cursos-de-instalacao-eletrica.onrender.com"
 
     return render_template_string(
         TEMPLATE_CONFIRMACAO,
