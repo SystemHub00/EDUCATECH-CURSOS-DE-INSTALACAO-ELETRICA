@@ -9,49 +9,44 @@ let steps = [];
 const path = window.location.pathname;
 if (path === '/' || path === '/index' || path === '/index.html') {
   steps = [
-    'Bem-vinda! Para começar, clique no botão <b>Quero me inscrever agora!</b> logo abaixo.',
-    'Esse botão vai te levar para o formulário de inscrição. Clique nele para continuar.'
+    'Olá! Para começar, clique no botão <b>Começar inscrição</b>.',
+    'Você vai avançar para o preenchimento dos seus dados. Siga etapa por etapa para concluir.'
   ];
 } else if (path.startsWith('/inscricao')) {
   steps = [
-    'Preencha seu <b>Nome Completo</b> igual está no seu documento.',
+    'Preencha seu <b>nome completo</b> exatamente como aparece no seu documento.',
     'Selecione seu <b>Gênero</b> na lista.',
-    'Digite seu <b>CPF</b> (apenas números, o sistema coloca os pontos automaticamente).',
-    'Digite sua <b>Data de Nascimento</b> (só os números). O sistema coloca as barras automaticamente!',
-    'Coloque seu <b>WhatsApp</b> para contato. Lembre-se de colocar o <b>DDD do seu estado</b> antes do número!',
-    'Digite seu <b>Email</b> para receber informações importantes.',
-    'Quando terminar, clique em <b>PRÓXIMO →</b> para avançar.'
+    'Digite seu <b>CPF</b>. O campo será formatado automaticamente.',
+    'Informe sua <b>data de nascimento</b>. O campo também será formatado automaticamente.',
+    'Preencha seu <b>WhatsApp</b> com DDD para contato.',
+    'Digite seu <b>e-mail</b> para receber atualizações importantes.',
+    'Quando terminar, clique em <b>Próximo</b> para avançar.'
   ];
 } else if (path.startsWith('/endereco')) {
   steps = [
-    'Agora preencha seu <b>endereço completo</b> para continuarmos.',
-    'Digite o <b>CEP</b> corretamente. Se não souber, consulte no site dos Correios.',
-    'Preencha o <b>nome da rua</b> e o <b>número</b> da sua residência.',
-    'Informe o <b>bairro</b> e a <b>cidade</b> onde você mora.',
-    'Selecione o <b>estado</b> na lista.',
-    'Se houver complemento (apto, bloco, etc.), preencha também.',
-    'Quando terminar, clique em <b>PRÓXIMO →</b> para avançar.'
+    'Preencha os dados de endereço com atenção para continuar.',
+    'Digite o <b>CEP</b> corretamente para facilitar o preenchimento.',
+    'Confira as informações antes de seguir para a próxima etapa.'
   ];
 } else if (path.startsWith('/curso')) {
   steps = [
-    'Agora escolha o <b>local</b> onde você quer fazer o curso.',
-    'Depois, selecione o <b>curso</b> de sua preferência. Os cursos disponíveis mudam conforme o local escolhido.',
-    'Por fim, escolha a <b>turma</b> (data e horário) que melhor se encaixa para você.',
-    'Quando terminar, clique em <b>PRÓXIMO →</b> para avançar.'
+    'Agora selecione a opção desejada na etapa atual.',
+    'Após a escolha, as informações complementares serão preenchidas automaticamente.',
+    'Confira os dados exibidos e clique em <b>Próximo</b> para continuar.'
   ];
 } else if (path.startsWith('/revisao')) {
   steps = [
-    'Revise todos os seus dados com atenção. Não esqueça de preencher o campo <b>Como conheceu</b>.',
-    'Antes de finalizar, marque a caixinha de <b>confirmação dos dados</b> para garantir que está tudo correto.',
-    'Se estiver tudo certo, clique em <b>CONFIRMAR INSCRIÇÃO</b> para finalizar.'
+    'Revise todos os dados com atenção antes de finalizar.',
+    'Se quiser, preencha o campo <b>Como conheceu</b>.',
+    'Antes de concluir, marque a confirmação dos dados e clique em <b>Finalizar inscrição</b>.'
   ];
 } else if (path.startsWith('/confirmacao')) {
   steps = [
-    'Inscrição realizada com sucesso! Guarde o <b>número de protocolo</b> e aguarde a equipe entrar em contato.'
+    'Tudo certo! Guarde o <b>número de protocolo</b> para consulta e acompanhamento.'
   ];
 } else {
   steps = [
-    'Bem-vindo! Use o assistente para receber orientações passo a passo.'
+    'Use o assistente para acompanhar as orientações desta página.'
   ];
 }
 

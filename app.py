@@ -1164,7 +1164,6 @@ TEMPLATE_WIZARD = r'''
                                     <strong>Ao confirmar você declara a ciência de que:</strong>
                                     <ul>
                                         <li>O curso é totalmente gratuito</li>
-                                        <li>Em caso de chuva será cancelado</li>
                                         <li>Os dados serão usados apenas para inscrição</li>
                                     </ul>
                                 </div>
