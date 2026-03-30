@@ -24,7 +24,7 @@ def get_gsheet_client():
 
 def append_to_sheet(data):
     client = get_gsheet_client()
-    sheet_id = os.environ.get("GOOGLE_SHEETS_ID", "1n3gi2BFisbqMbFReQgAXsLSiZR6uj3qeZ92Z3LYF44c")
+    sheet_id = os.environ.get("GOOGLE_SHEETS_ID", "1o6l3Edmt_qovSQGrWrf5lbqcf16xVZrh2WEU_pycUWk")
     sheet_name = os.environ.get("GOOGLE_SHEETS_TAB", "INSCRICOES")
     sheet = client.open_by_key(sheet_id).worksheet(sheet_name)
     # Cabeçalho correto conforme planilha (ajuste conforme sua planilha)
